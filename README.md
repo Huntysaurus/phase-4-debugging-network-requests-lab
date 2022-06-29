@@ -62,7 +62,7 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: clicking on add-toy gives an internal server error 500 code. Probably a syntax error in the methods somewhere. The create method in the toys_controller has the class Toys instead of Toy
 
 - Update the number of likes for a toy
 
@@ -70,4 +70,4 @@ developing your own process.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: 404 not found. There is no destroy route in the routes file upon checking.
